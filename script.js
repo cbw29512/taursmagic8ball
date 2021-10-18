@@ -1,13 +1,28 @@
 var answers = [
-    'It is certain!', 'It is decidely so!', 'Without a doubt!', 'YES - Definitely!',
-    'You may rely on it!', 'INSTAWIN!', 'Most Likely.', 'Outlook Good.',
-    'Yes.', 'Signs Point to Yes!', 'Reply hazy, try again.', 'Ask again later.', 'Better not tell you.',
-    'Cannot predict now.', 'Concentrate and ask again.', 'Dont count on it.', 'My reply is no.',
-    'My sources say NO.', 'Outlook not good.', 'Very doubtful.',
-    'Instafail.', 'Maybe?', 'Sure.', 'As the Prophecy foretold!'];
-  
-  document.getElementById('eight-ball').onclick = function () {
+  "I hate this guild!",
+  "Fuck you Pale!",
+  "I drank too much...",
+  "uuuhhhh OK.",
+  "SHUT THE FUCK UP!",
+  "YO! That wasn't me!",
+  "HELL YEAH!",
+  "We fucks with them!",
+  "They're good people.",
+  "and theeen...and theeeen...and theeeeen...",
+  "Let's go!!",
+  "Heroic Mana Tombs, it's just the first boss...",
+  "But for real though!",
+  "AAWWW DUDE, DUDE, NAH, DUDE!",
+  "Nah Bro!" + "," + "Nah Bro!" + "," + "Nah Bro!",
+  "I'm done for the night.",
+  "I hate you guys!",
+  "I had taco bell for dinner",
+  "I forgot my tremor totem/ankhs",
+  "HOLY FUCK MAN!",
+  "I can't fucking handle you guys!",
+];
+
+document.getElementById("eight-ball").onclick = function () {
   var answer = answers[Math.floor(Math.random() * answers.length)];
-      document.getElementById('answer').innerHTML = answer;
-  };
-  
+  document.getElementById("answer").innerHTML = answer;
+};

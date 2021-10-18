@@ -1,3 +1,1 @@
-# Magic8ball
-
-# taursmagic8ball
+# Slaps magic 8 ball

@@ -13,7 +13,7 @@ var answers = [
   "Heroic Mana Tombs, it's just the first boss...",
   "But for real though!",
   "AAWWW DUDE, DUDE, NAH, DUDE!",
-  "Nah Bro!" + "," + "Nah Bro!" + "," + "Nah Bro!",
+  "Nah, No way Bro!",
   "I'm done for the night.",
   "I hate you guys!",
   "I had taco bell for dinner",
